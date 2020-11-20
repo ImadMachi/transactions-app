@@ -1,0 +1,12 @@
+.main {
+  max-width: 35rem;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.main__title {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: var(--xl-size);
+}

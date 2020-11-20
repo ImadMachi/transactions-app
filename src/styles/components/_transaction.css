@@ -1,0 +1,32 @@
+.transaction__title {
+  font-size: var(--l-size);
+  border-bottom: 1px solid var(--gray);
+  padding-bottom: var(--s-size);
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.label,
+.input {
+  margin-bottom: var(--xs-size);
+}
+.input {
+  height: var(--xxl-size);
+  border: 1px solid var(--gray);
+  padding: 0 var(--xs-size);
+}
+.input--button {
+  color: white;
+  background-color: var(--gray);
+  text-transform: capitalize;
+  outline: none;
+}
+.bg-green {
+  background-color: var(--green);
+}
+.error-message {
+  font-style: italic;
+  color: var(--red);
+  padding: var(--xs-size) 0;
+}

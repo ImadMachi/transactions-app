@@ -1,0 +1,32 @@
+.balance__title {
+  font-size: var(--m-size);
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.balance__amount {
+  font-size: var(--xxl-size);
+  font-weight: bold;
+  margin-bottom: var(--m-size);
+}
+.balance__explicit {
+  display: flex;
+  justify-content: space-around;
+  min-height: 9rem;
+  background-color: var(--white);
+  align-items: center;
+  box-shadow: 0 3px 10px -5px var(--gray);
+}
+.income__title,
+.expense__title {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: var(--xs-size);
+}
+.income__amount {
+  color: var(--green);
+  font-size: var(--l-size);
+}
+.expense__amount {
+  color: var(--red);
+  font-size: var(--l-size);
+}

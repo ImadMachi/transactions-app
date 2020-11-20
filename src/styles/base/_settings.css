@@ -1,0 +1,19 @@
+/*===== SIZE =====*/
+:root {
+  --xxs-size: 0.4rem;
+  --xs-size: 0.8rem;
+  --s-size: 1.3rem;
+  --m-size: 1.6rem;
+  --l-size: 2rem;
+  --xl-size: 2.6rem;
+  --xxl-size: 3.2rem;
+}
+
+/*===== COLORS =====*/
+:root {
+  --lynx-white: #f7f7f7;
+  --white: #fff;
+  --green: #2ecc71;
+  --red: #c0392b;
+  --gray: rgb(161, 160, 160);
+}
